@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="8e762329-01d8-4b55-8723-7fa24c4d5d91" Title="NetSdrApplication Namespace" Url="html/N-NetSdrApplication.htm">
+    <HelpTOCNode Id="1667b872-7aaa-43bb-8637-9c2c086d20c2" Title="Program Class" Url="html/T-NetSdrApplication.Program.htm">
+      <HelpTOCNode Title="Program Members" Url="html/AllMembers.T-NetSdrApplication.Program.htm" />
+      <HelpTOCNode Id="ee0a7605-7b7d-4a5e-ba90-2db1ee39c997" Title="Program Methods" Url="html/Methods.T-NetSdrApplication.Program.htm">
+        <HelpTOCNode Title="ConfigureServices Method " Url="html/M-NetSdrApplication.Program.ConfigureServices.htm" />
+        <HelpTOCNode Title="Main Method " Url="html/M-NetSdrApplication.Program.Main.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="d353357c-027b-4d98-8795-aa22b8132560" Title="NetSdrApplication.Exceptions Namespace" Url="html/N-NetSdrApplication.Exceptions.htm">
+    <HelpTOCNode Id="e0c05b9b-8a75-403c-bcf5-4a0251990144" Title="ConnectionException Class" Url="html/T-NetSdrApplication.Exceptions.ConnectionException.htm">
+      <HelpTOCNode Title="ConnectionException Members" Url="html/AllMembers.T-NetSdrApplication.Exceptions.ConnectionException.htm" />
+      <HelpTOCNode Id="354a6119-4a00-492f-9f80-b91d904153ed" Title="ConnectionException Constructor " Url="html/Overload-NetSdrApplication.Exceptions.ConnectionException.-ctor.htm">
+        <HelpTOCNode Title="ConnectionException Constructor (String, Exception)" Url="html/M-NetSdrApplication.Exceptions.ConnectionException.-ctor.htm" />
+        <HelpTOCNode Title="ConnectionException Constructor (String)" Url="html/M-NetSdrApplication.Exceptions.ConnectionException.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ConnectionException Methods" Url="html/Methods.T-NetSdrApplication.Exceptions.ConnectionException.htm" />
+      <HelpTOCNode Title="ConnectionException Properties" Url="html/Properties.T-NetSdrApplication.Exceptions.ConnectionException.htm" />
+      <HelpTOCNode Title="ConnectionException Events" Url="html/Events.T-NetSdrApplication.Exceptions.ConnectionException.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0d0b92ab-1787-46fd-8eb4-a138efc3d7a9" Title="NAKException Class" Url="html/T-NetSdrApplication.Exceptions.NAKException.htm">
+      <HelpTOCNode Title="NAKException Members" Url="html/AllMembers.T-NetSdrApplication.Exceptions.NAKException.htm" />
+      <HelpTOCNode Title="NAKException Constructor " Url="html/M-NetSdrApplication.Exceptions.NAKException.-ctor.htm" />
+      <HelpTOCNode Title="NAKException Methods" Url="html/Methods.T-NetSdrApplication.Exceptions.NAKException.htm" />
+      <HelpTOCNode Title="NAKException Properties" Url="html/Properties.T-NetSdrApplication.Exceptions.NAKException.htm" />
+      <HelpTOCNode Title="NAKException Events" Url="html/Events.T-NetSdrApplication.Exceptions.NAKException.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="e934a012-8785-4c9d-a5d4-034858c92a3f" Title="NetSdrApplication.Models.ControlItem Namespace" Url="html/N-NetSdrApplication.Models.ControlItem.htm">
+    <HelpTOCNode Id="1342b792-9873-459c-8358-be9b9eaf2621" Title="AckMessage Class" Url="html/T-NetSdrApplication.Models.ControlItem.AckMessage.htm">
+      <HelpTOCNode Title="AckMessage Members" Url="html/AllMembers.T-NetSdrApplication.Models.ControlItem.AckMessage.htm" />
+      <HelpTOCNode Title="AckMessage Constructor " Url="html/M-NetSdrApplication.Models.ControlItem.AckMessage.-ctor.htm" />
+      <HelpTOCNode Id="6d45bf23-8b1e-4c8f-8fd2-33e3feecbec5" Title="AckMessage Methods" Url="html/Methods.T-NetSdrApplication.Models.ControlItem.AckMessage.htm">
+        <HelpTOCNode Title="GetPayload Method " Url="html/M-NetSdrApplication.Models.ControlItem.AckMessage.GetPayload.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AckMessage Properties" Url="html/Properties.T-NetSdrApplication.Models.ControlItem.AckMessage.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3ff06d93-a8dd-493f-907e-ef194f40709d" Title="ControlItemMessage Class" Url="html/T-NetSdrApplication.Models.ControlItem.ControlItemMessage.htm">
+      <HelpTOCNode Title="ControlItemMessage Members" Url="html/AllMembers.T-NetSdrApplication.Models.ControlItem.ControlItemMessage.htm" />
+      <HelpTOCNode Title="ControlItemMessage Constructor " Url="html/M-NetSdrApplication.Models.ControlItem.ControlItemMessage.-ctor.htm" />
+      <HelpTOCNode Id="cb8987ac-32ff-4f87-86c2-33036be4963a" Title="ControlItemMessage Methods" Url="html/Methods.T-NetSdrApplication.Models.ControlItem.ControlItemMessage.htm">
+        <HelpTOCNode Title="GetPayload Method " Url="html/M-NetSdrApplication.Models.ControlItem.ControlItemMessage.GetPayload.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5a054ad2-550e-45ce-a767-bfd73280eb92" Title="ControlItemMessage Properties" Url="html/Properties.T-NetSdrApplication.Models.ControlItem.ControlItemMessage.htm">
+        <HelpTOCNode Title="ControlItemCode Property " Url="html/P-NetSdrApplication.Models.ControlItem.ControlItemMessage.ControlItemCode.htm" />
+        <HelpTOCNode Title="Parameters Property " Url="html/P-NetSdrApplication.Models.ControlItem.ControlItemMessage.Parameters.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="48c46057-5dd3-4348-8117-1a406536692d" Title="Header Class" Url="html/T-NetSdrApplication.Models.ControlItem.Header.htm">
+      <HelpTOCNode Title="Header Members" Url="html/AllMembers.T-NetSdrApplication.Models.ControlItem.Header.htm" />
+      <HelpTOCNode Title="Header Constructor " Url="html/M-NetSdrApplication.Models.ControlItem.Header.-ctor.htm" />
+      <HelpTOCNode Id="bc10e93f-4be9-47f1-9bce-f95d7f6c0221" Title="Header Methods" Url="html/Methods.T-NetSdrApplication.Models.ControlItem.Header.htm">
+        <HelpTOCNode Title="FromBytes Method " Url="html/M-NetSdrApplication.Models.ControlItem.Header.FromBytes.htm" />
+        <HelpTOCNode Title="ToBytes Method " Url="html/M-NetSdrApplication.Models.ControlItem.Header.ToBytes.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b37b422b-766c-43aa-a6da-5697742912e4" Title="Header Properties" Url="html/Properties.T-NetSdrApplication.Models.ControlItem.Header.htm">
+        <HelpTOCNode Title="Length Property " Url="html/P-NetSdrApplication.Models.ControlItem.Header.Length.htm" />
+        <HelpTOCNode Title="MessageType Property " Url="html/P-NetSdrApplication.Models.ControlItem.Header.MessageType.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="66d87ee7-e09a-4ced-82e7-f537ee2a4460" Title="Message Class" Url="html/T-NetSdrApplication.Models.ControlItem.Message.htm">
+      <HelpTOCNode Title="Message Members" Url="html/AllMembers.T-NetSdrApplication.Models.ControlItem.Message.htm" />
+      <HelpTOCNode Id="ba6a2a74-513f-426a-991c-371058cafc59" Title="Message Methods" Url="html/Methods.T-NetSdrApplication.Models.ControlItem.Message.htm">
+        <HelpTOCNode Title="GetPayload Method " Url="html/M-NetSdrApplication.Models.ControlItem.Message.GetPayload.htm" />
+        <HelpTOCNode Title="ToBytes Method " Url="html/M-NetSdrApplication.Models.ControlItem.Message.ToBytes.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9de9b2b9-baec-446d-8c39-4873e12d023b" Title="Message Properties" Url="html/Properties.T-NetSdrApplication.Models.ControlItem.Message.htm">
+        <HelpTOCNode Title="Header Property " Url="html/P-NetSdrApplication.Models.ControlItem.Message.Header.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="09928bb0-7555-4abf-9e5b-3340515a7553" Title="NetSdrApplication.Models.Enums Namespace" Url="html/N-NetSdrApplication.Models.Enums.htm">
+    <HelpTOCNode Title="Code Enumeration" Url="html/T-NetSdrApplication.Models.Enums.Code.htm" />
+    <HelpTOCNode Title="MessageType Enumeration" Url="html/T-NetSdrApplication.Models.Enums.MessageType.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="564c5d3c-bf36-4b18-bf21-ad810d068e21" Title="NetSdrApplication.Services.ConnectionClientController Namespace" Url="html/N-NetSdrApplication.Services.ConnectionClientController.htm">
+    <HelpTOCNode Id="c8ecce36-f677-46d4-9c33-66765d709353" Title="IConnectionController Interface" Url="html/T-NetSdrApplication.Services.ConnectionClientController.IConnectionController.htm">
+      <HelpTOCNode Title="IConnectionController Members" Url="html/AllMembers.T-NetSdrApplication.Services.ConnectionClientController.IConnectionController.htm" />
+      <HelpTOCNode Id="8e21e50f-c288-45b8-b99c-8fb27604c210" Title="IConnectionController Methods" Url="html/Methods.T-NetSdrApplication.Services.ConnectionClientController.IConnectionController.htm">
+        <HelpTOCNode Title="ConnectAsync Method " Url="html/M-NetSdrApplication.Services.ConnectionClientController.IConnectionController.ConnectAsync.htm" />
+        <HelpTOCNode Title="DisconnectAsync Method " Url="html/M-NetSdrApplication.Services.ConnectionClientController.IConnectionController.DisconnectAsync.htm" />
+        <HelpTOCNode Title="ReceiveAsync Method " Url="html/M-NetSdrApplication.Services.ConnectionClientController.IConnectionController.ReceiveAsync.htm" />
+        <HelpTOCNode Title="SendAsync Method " Url="html/M-NetSdrApplication.Services.ConnectionClientController.IConnectionController.SendAsync.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b527a5e3-cd28-45ba-96aa-c69354aea33a" Title="IConnectionController Properties" Url="html/Properties.T-NetSdrApplication.Services.ConnectionClientController.IConnectionController.htm">
+        <HelpTOCNode Title="IsConnected Property " Url="html/P-NetSdrApplication.Services.ConnectionClientController.IConnectionController.IsConnected.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="34dd1b4b-df79-40bc-8398-250a7ebf510e" Title="TcpConnectionController Class" Url="html/T-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.htm">
+      <HelpTOCNode Title="TcpConnectionController Members" Url="html/AllMembers.T-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.htm" />
+      <HelpTOCNode Title="TcpConnectionController Constructor " Url="html/M-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.-ctor.htm" />
+      <HelpTOCNode Id="83e73424-382b-444b-855f-716560644b42" Title="TcpConnectionController Fields" Url="html/Fields.T-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.htm">
+        <HelpTOCNode Title="_stream Field" Url="html/F-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController._stream.htm" />
+        <HelpTOCNode Title="_tcpClient Field" Url="html/F-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController._tcpClient.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c036edf4-4c04-4bca-990f-a0691fd49b27" Title="TcpConnectionController Methods" Url="html/Methods.T-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.htm">
+        <HelpTOCNode Title="ConnectAsync Method " Url="html/M-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.ConnectAsync.htm" />
+        <HelpTOCNode Title="DisconnectAsync Method " Url="html/M-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.DisconnectAsync.htm" />
+        <HelpTOCNode Title="ReadExactAsync Method " Url="html/M-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.ReadExactAsync.htm" />
+        <HelpTOCNode Title="ReceiveAsync Method " Url="html/M-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.ReceiveAsync.htm" />
+        <HelpTOCNode Title="SendAsync Method " Url="html/M-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.SendAsync.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="83673af2-371b-4217-870a-16fd827baf76" Title="TcpConnectionController Properties" Url="html/Properties.T-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.htm">
+        <HelpTOCNode Title="IsConnected Property " Url="html/P-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.IsConnected.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="f6b18878-6ef9-45fc-bf5f-9d45978b6ede" Title="NetSdrApplication.Services.NetSdrClient Namespace" Url="html/N-NetSdrApplication.Services.NetSdrClient.htm">
+    <HelpTOCNode Id="7515c7b0-5fcb-41e8-89d5-8feec84935fc" Title="INetSdrClient Interface" Url="html/T-NetSdrApplication.Services.NetSdrClient.INetSdrClient.htm">
+      <HelpTOCNode Title="INetSdrClient Members" Url="html/AllMembers.T-NetSdrApplication.Services.NetSdrClient.INetSdrClient.htm" />
+      <HelpTOCNode Id="e42009e5-bdaf-4f07-990f-e3005368eadf" Title="INetSdrClient Methods" Url="html/Methods.T-NetSdrApplication.Services.NetSdrClient.INetSdrClient.htm">
+        <HelpTOCNode Title="ConnectAsync Method " Url="html/M-NetSdrApplication.Services.NetSdrClient.INetSdrClient.ConnectAsync.htm" />
+        <HelpTOCNode Title="DisconnectAsync Method " Url="html/M-NetSdrApplication.Services.NetSdrClient.INetSdrClient.DisconnectAsync.htm" />
+        <HelpTOCNode Title="SetReceiverState Method " Url="html/M-NetSdrApplication.Services.NetSdrClient.INetSdrClient.SetReceiverState.htm" />
+        <HelpTOCNode Title="SetTargetFrequency Method " Url="html/M-NetSdrApplication.Services.NetSdrClient.INetSdrClient.SetTargetFrequency.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="393bf651-9fe4-457c-ac1d-07f361e53aa6" Title="NetSdrClient Class" Url="html/T-NetSdrApplication.Services.NetSdrClient.NetSdrClient.htm">
+      <HelpTOCNode Title="NetSdrClient Members" Url="html/AllMembers.T-NetSdrApplication.Services.NetSdrClient.NetSdrClient.htm" />
+      <HelpTOCNode Title="NetSdrClient Constructor " Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.-ctor.htm" />
+      <HelpTOCNode Id="95469092-6892-407b-a227-f95b6eb29553" Title="NetSdrClient Fields" Url="html/Fields.T-NetSdrApplication.Services.NetSdrClient.NetSdrClient.htm">
+        <HelpTOCNode Title="_backgroundTask Field" Url="html/F-NetSdrApplication.Services.NetSdrClient.NetSdrClient._backgroundTask.htm" />
+        <HelpTOCNode Title="_cts Field" Url="html/F-NetSdrApplication.Services.NetSdrClient.NetSdrClient._cts.htm" />
+        <HelpTOCNode Title="_disposed Field" Url="html/F-NetSdrApplication.Services.NetSdrClient.NetSdrClient._disposed.htm" />
+        <HelpTOCNode Title="_tcpConnectionController Field" Url="html/F-NetSdrApplication.Services.NetSdrClient.NetSdrClient._tcpConnectionController.htm" />
+        <HelpTOCNode Title="_udpChannel Field" Url="html/F-NetSdrApplication.Services.NetSdrClient.NetSdrClient._udpChannel.htm" />
+        <HelpTOCNode Title="_udpClient Field" Url="html/F-NetSdrApplication.Services.NetSdrClient.NetSdrClient._udpClient.htm" />
+        <HelpTOCNode Title="_udpOutputFilePath Field" Url="html/F-NetSdrApplication.Services.NetSdrClient.NetSdrClient._udpOutputFilePath.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c1b405f5-97a4-4d66-b08b-41961ca5adc8" Title="NetSdrClient Methods" Url="html/Methods.T-NetSdrApplication.Services.NetSdrClient.NetSdrClient.htm">
+        <HelpTOCNode Title="ConnectAsync Method " Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.ConnectAsync.htm" />
+        <HelpTOCNode Title="DisconnectAsync Method " Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.DisconnectAsync.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.Dispose.htm" />
+        <HelpTOCNode Title="DisposeUdpResources Method " Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.DisposeUdpResources.htm" />
+        <HelpTOCNode Title="EnsureConnected Method " Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.EnsureConnected.htm" />
+        <HelpTOCNode Title="ProcessResponse Method " Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.ProcessResponse.htm" />
+        <HelpTOCNode Title="ProcessUdpDataAsync Method " Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.ProcessUdpDataAsync.htm" />
+        <HelpTOCNode Title="ReceiveUdpDataAsync Method " Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.ReceiveUdpDataAsync.htm" />
+        <HelpTOCNode Title="SetReceiverState Method " Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.SetReceiverState.htm" />
+        <HelpTOCNode Title="SetTargetFrequency Method " Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.SetTargetFrequency.htm" />
+        <HelpTOCNode Title="StartUdpReceiver Method " Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.StartUdpReceiver.htm" />
+        <HelpTOCNode Title="StopUdpReceiverAsync Method " Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.StopUdpReceiverAsync.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

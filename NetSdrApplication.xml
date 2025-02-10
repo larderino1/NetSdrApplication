@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>NetSdrApplication</name>
+  </assembly>
+  <members>
+    <member name="T:NetSdrApplication.Exceptions.ConnectionException">
+      <summary>
+   Custom exception to inform about connection issues
+   </summary>
+    </member>
+    <member name="M:NetSdrApplication.Exceptions.ConnectionException.#ctor(System.String,Exception)">
+      <summary>
+   Constructor of <see cref="T:NetSdrApplication.Exceptions.ConnectionException" /> with inner exception capture
+   </summary>
+      <param name="message">Exception message</param>
+      <param name="ex">Inner exception</param>
+    </member>
+    <member name="M:NetSdrApplication.Exceptions.ConnectionException.#ctor(System.String)">
+      <summary>
+   Constructor of <see cref="T:NetSdrApplication.Exceptions.ConnectionException" /></summary>
+      <param name="message">Exception message</param>
+    </member>
+    <member name="T:NetSdrApplication.Exceptions.NAKException">
+      <summary>
+   Custom exception to inform about NAK message
+   </summary>
+    </member>
+    <member name="M:NetSdrApplication.Exceptions.NAKException.#ctor(System.String)">
+      <summary>
+   Constructor of <see cref="T:NetSdrApplication.Exceptions.NAKException" /></summary>
+      <param name="message">Exception message</param>
+    </member>
+    <member name="T:NetSdrApplication.Models.ControlItem.Header">
+      <summary>
+   Represents the 16-bit header of a NetSDR message
+   Header consists of:
+   - 8 bits: Length LSB
+   - 3 bits: Message type
+   - 5 bits: Length MSB
+   Total of 13-bit length is the total number of bytes in the message (including the header)
+   </summary>
+    </member>
+    <member name="P:NetSdrApplication.Models.ControlItem.Header.Length">
+      <summary>
+   Gets the total message length (in bytes), including this header
+   </summary>
+    </member>
+    <member name="P:NetSdrApplication.Models.ControlItem.Header.MessageType">
+      <summary>
+   Gets the message type
+   </summary>
+    </member>
+    <member name="M:NetSdrApplication.Models.ControlItem.Header.#ctor(System.Int32,MessageType)">
+      <summary>
+   Initializes a new instance of the <see cref="T:NetSdrApplication.Models.ControlItem.Header" /> class
+   </summary>
+      <param name="length">The 13-bit length value</param>
+      <param name="messageType">The message type (3 bits)</param>
+      <exception cref="T:System.ArgumentOutOfRangeException">Length must be between 0 and 8191 bytes</exception>
+    </member>
+    <member name="M:NetSdrApplication.Models.ControlItem.Header.ToBytes">
+      <summary>
+   Encodes header into a 2‑byte array using little‑endian byte order
+   </summary>
+      <returns>A 2‑byte array representing header</returns>
+    </member>
+    <member name="M:NetSdrApplication.Models.ControlItem.Header.FromBytes(System.Byte[])">
+      <summary>
+   Decodes a <see cref="T:NetSdrApplication.Models.ControlItem.Header" /> from a 2‑byte array
+   </summary>
+      <param name="data">A 2‑byte array containing the header data</param>
+      <returns>A <see cref="T:NetSdrApplication.Models.ControlItem.Header" /> instance</returns>
+      <exception cref="T:System.ArgumentException">Data must be at least 2 bytes</exception>
+    </member>
+    <member name="T:NetSdrApplication.Models.ControlItem.Message">
+      <summary>
+   NetSdr Base Message entity
+   </summary>
+    </member>
+    <member name="T:NetSdrApplication.Models.ControlItem.ControlItemMessage">
+      <summary>
+   Control Item Message
+   Format:
+     16-bit header,
+     16-bit control item code (little‑endian)
+     Followed by zero or more parameter bytes
+   </summary>
+    </member>
+    <member name="T:NetSdrApplication.Models.ControlItem.AckMessage">
+      <summary>
+   Acknowledgment Message Entity
+   </summary>
+    </member>
+    <member name="P:NetSdrApplication.Models.ControlItem.Message.Header">
+      <summary>
+   Message Header <see cref="T:NetSdrApplication.Models.ControlItem.Header" /></summary>
+    </member>
+    <member name="M:NetSdrApplication.Models.ControlItem.Message.GetPayload">
+      <summary>
+   Message payload
+   </summary>
+    </member>
+    <member name="M:NetSdrApplication.Models.ControlItem.Message.ToBytes">
+      <summary>
+   Serializes message (header and payload) to a byte array
+   </summary>
+      <returns>Message data converted to byte array</returns>
+    </member>
+    <member name="P:NetSdrApplication.Models.ControlItem.ControlItemMessage.ControlItemCode">
+      <summary>
+   Control Item Code <see cref="T:NetSdrApplication.Models.Enums.Code" /></summary>
+    </member>
+    <member name="P:NetSdrApplication.Models.ControlItem.ControlItemMessage.Parameters">
+      <summary>
+   Parameters byte array
+   </summary>
+    </member>
+    <member name="M:NetSdrApplication.Models.ControlItem.ControlItemMessage.#ctor(Code,System.Byte[])">
+      <summary>
+   Constructor of <see cref="T:NetSdrApplication.Models.ControlItem.ControlItemMessage" /> class
+   </summary>
+      <param name="controlItemCode">The control item code</param>
+      <param name="parameters">The parameter bytes</param>
+    </member>
+    <member name="M:NetSdrApplication.Models.ControlItem.ControlItemMessage.GetPayload">
+      <inheritdoc />
+    </member>
+    <member name="M:NetSdrApplication.Models.ControlItem.AckMessage.#ctor(Header)">
+      <summary>
+   Constructor of the <see cref="T:NetSdrApplication.Models.ControlItem.AckMessage" /></summary>
+      <param name="header">Message Header</param>
+    </member>
+    <member name="M:NetSdrApplication.Models.ControlItem.AckMessage.GetPayload">
+      <summary>
+   Empty payload for ACK
+   </summary>
+    </member>
+    <member name="T:NetSdrApplication.Models.Enums.Code">
+      <summary>
+   NetSdr Command codes
+   </summary>
+    </member>
+    <member name="F:NetSdrApplication.Models.Enums.Code.StartIQ">
+      <summary>
+   Command to start I/Q
+   </summary>
+    </member>
+    <member name="F:NetSdrApplication.Models.Enums.Code.StopIQ">
+      <summary>
+   Command to stop I/Q
+   </summary>
+    </member>
+    <member name="F:NetSdrApplication.Models.Enums.Code.SetFrequency">
+      <summary>
+   Command to change target frequency
+   </summary>
+    </member>
+    <member name="F:NetSdrApplication.Models.Enums.Code.Default">
+      <summary>
+   Default value
+   </summary>
+    </member>
+    <member name="T:NetSdrApplication.Models.Enums.MessageType">
+      <summary>
+   NetSdr Message Type
+   </summary>
+    </member>
+    <member name="F:NetSdrApplication.Models.Enums.MessageType.ControlItem">
+      <summary>
+   A control item message
+   </summary>
+    </member>
+    <member name="F:NetSdrApplication.Models.Enums.MessageType.DataItem">
+      <summary>
+   A data item message
+   </summary>
+    </member>
+    <member name="F:NetSdrApplication.Models.Enums.MessageType.Ack">
+      <summary>
+   An acknowledgment (ACK) message
+   </summary>
+    </member>
+    <member name="F:NetSdrApplication.Models.Enums.MessageType.Nak">
+      <summary>
+   A negative acknowledgment (NAK) message
+   </summary>
+    </member>
+    <member name="T:NetSdrApplication.Services.ConnectionClientController.IConnectionController">
+      <summary>
+   Provides an abstraction for network communication with receiver
+   </summary>
+    </member>
+    <member name="M:NetSdrApplication.Services.ConnectionClientController.IConnectionController.ConnectAsync(IPAddress,System.Int32)">
+      <summary>
+   Connects to the specified host and port
+   </summary>
+      <param name="host">The host address</param>
+      <param name="port">The port number</param>
+      <returns>A task representing the state of async operation</returns>
+    </member>
+    <member name="M:NetSdrApplication.Services.ConnectionClientController.IConnectionController.DisconnectAsync">
+      <summary>
+   Disconnects from the host
+   </summary>
+      <returns>A task representing the state of async operation</returns>
+    </member>
+    <member name="M:NetSdrApplication.Services.ConnectionClientController.IConnectionController.SendAsync(System.Byte[])">
+      <summary>
+   Sends data to the host
+   </summary>
+      <param name="data">The data to send</param>
+      <returns>A task representing the state of async operation</returns>
+    </member>
+    <member name="M:NetSdrApplication.Services.ConnectionClientController.IConnectionController.ReceiveAsync">
+      <summary>
+   Receives a complete message from the TCP stream
+   The message consists of a 2‑byte header followed by the payload
+   </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="P:NetSdrApplication.Services.ConnectionClientController.IConnectionController.IsConnected">
+      <summary>
+   Represents client connection status
+   </summary>
+    </member>
+    <member name="T:NetSdrApplication.Services.ConnectionClientController.TcpConnectionController">
+      <summary>
+   Implements <see cref="T:NetSdrApplication.Services.ConnectionClientController.IConnectionController" /> using TCP protocol.
+   </summary>
+    </member>
+    <member name="P:NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.IsConnected">
+      <summary>
+   Represents connection state
+   </summary>
+    </member>
+    <member name="M:NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.#ctor">
+      <summary>
+   Constructor for <see cref="T:NetSdrApplication.Services.ConnectionClientController.TcpConnectionController" /></summary>
+    </member>
+    <member name="M:NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.ConnectAsync(IPAddress,System.Int32)">
+      <inheritdoc />
+    </member>
+    <member name="M:NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.DisconnectAsync">
+      <inheritdoc />
+    </member>
+    <member name="M:NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.SendAsync(System.Byte[])">
+      <inheritdoc />
+    </member>
+    <member name="M:NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.ReceiveAsync">
+      <inheritdoc />
+    </member>
+    <member name="M:NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.ReadExactAsync(NetworkStream,System.Int32)">
+      <summary>
+   Reads exactly specified number of bytes from provided <see cref="T:System.Net.Sockets.NetworkStream" /></summary>
+      <param name="stream">Network stream from which data will be read</param>
+      <param name="count">Exact number of bytes to read from the stream</param>
+      <returns>
+   A byte array containing exactly <paramref name="count" /> bytes that were read from the stream
+   </returns>
+      <exception cref="EndOfStreamException">
+   Thrown if the stream ends before the specified number of bytes could be read
+   </exception>
+    </member>
+    <member name="T:NetSdrApplication.Services.NetSdrClient.INetSdrClient">
+      <summary>
+   Interface for NetSdr instance
+   </summary>
+    </member>
+    <member name="M:NetSdrApplication.Services.NetSdrClient.INetSdrClient.ConnectAsync(System.String,System.Int32)">
+      <summary>
+   Connects to NetSDR receiver using provided IP address and port
+   </summary>
+      <param name="ip">IP address</param>
+      <param name="port">TCP port number (default is 50000)</param>
+      <returns>A Task representing state of async operation</returns>
+    </member>
+    <member name="M:NetSdrApplication.Services.NetSdrClient.INetSdrClient.DisconnectAsync">
+      <summary>
+   Disconnects from NetSDR receiver
+   </summary>
+      <returns>A Task representing state of async operation</returns>
+    </member>
+    <member name="M:NetSdrApplication.Services.NetSdrClient.INetSdrClient.SetReceiverState(Code,System.Byte,System.Byte,System.Byte)">
+      <summary>
+   Sets receiver state (start or stop IQ transmission)
+   After processing response, starts or stops UDP based on received code
+   </summary>
+      <param name="controlItemCode">Control item code <see cref="T:NetSdrApplication.Models.Enums.Code" /></param>
+      <param name="channelSpecifier">Data channel/type specifier (default: 0x80)</param>
+      <param name="captureMode">Capture mode (default: 0x80)</param>
+      <param name="fifoCount">FIFO count (default: 0x00)</param>
+      <returns>A Task representing state of async operation</returns>
+    </member>
+    <member name="M:NetSdrApplication.Services.NetSdrClient.INetSdrClient.SetTargetFrequency(System.UInt64,System.Byte)">
+      <summary>
+   Sets receiver frequency by converting given frequency into a 5-byte array
+   and sending it along with channel identifier
+   </summary>
+      <param name="frequency"> frequency value (in Hz)</param>
+      <param name="channelId"> channel identifier (default: 0xFF)</param>
+      <returns>A Task representing   async operation</returns>
+    </member>
+    <member name="T:NetSdrApplication.Services.NetSdrClient.NetSdrClient">
+      <summary>
+   Implements NetSDR client functionality, including TCP command
+   operations and UDP data reception for I/Q samples
+   </summary>
+    </member>
+    <member name="M:NetSdrApplication.Services.NetSdrClient.NetSdrClient.#ctor(IConnectionController)">
+      <summary>
+   Constructs a new instance of NetSdrClient
+   </summary>
+      <param name="tcpConnectionController">  TCP connection controller</param>
+    </member>
+    <member name="M:NetSdrApplication.Services.NetSdrClient.NetSdrClient.ConnectAsync(System.String,System.Int32)">
+      <inheritdoc />
+    </member>
+    <member name="M:NetSdrApplication.Services.NetSdrClient.NetSdrClient.DisconnectAsync">
+      <inheritdoc />
+    </member>
+    <member name="M:NetSdrApplication.Services.NetSdrClient.NetSdrClient.SetReceiverState(Code,System.Byte,System.Byte,System.Byte)">
+      <inheritdoc />
+    </member>
+    <member name="M:NetSdrApplication.Services.NetSdrClient.NetSdrClient.SetTargetFrequency(System.UInt64,System.Byte)">
+      <inheritdoc />
+    </member>
+    <member name="M:NetSdrApplication.Services.NetSdrClient.NetSdrClient.Dispose">
+      <summary>
+   Disposes of all managed resources
+   </summary>
+    </member>
+    <member name="M:NetSdrApplication.Services.NetSdrClient.NetSdrClient.StartUdpReceiver(System.String)">
+      <summary>
+   Starts UDP receiver to listen on port 60000 for I/Q sample data
+   Received data is written to specified output file
+   </summary>
+      <param name="outputFilePath">  path of   file where UDP data will be written</param>
+    </member>
+    <member name="M:NetSdrApplication.Services.NetSdrClient.NetSdrClient.StopUdpReceiverAsync">
+      <summary>
+   Stops   UDP receiver by canceling its background tasks and resources
+   </summary>
+      <returns>A Task representing   state of async operation</returns>
+    </member>
+    <member name="M:NetSdrApplication.Services.NetSdrClient.NetSdrClient.ReceiveUdpDataAsync(UdpClient,Channel{System.Byte[]},CancellationToken)">
+      <summary>
+   Receives UDP data and writes each received payload into tread safe channel
+   </summary>
+      <param name="udpClient">  UDP client to receive data from</param>
+      <param name="channel">  channel used to handle received data</param>
+      <param name="cancellationToken">Token to signal cancellation</param>
+      <returns>A Task representing   async operation</returns>
+    </member>
+    <member name="M:NetSdrApplication.Services.NetSdrClient.NetSdrClient.ProcessUdpDataAsync(System.String,Channel{System.Byte[]},CancellationToken)">
+      <summary>
+   Processes data from UDP channel and writes it to specified output file
+   </summary>
+      <param name="outputFilePath"> file path where UDP data should be written</param>
+      <param name="channel"> channel from which to read UDP data</param>
+      <param name="cancellationToken">Token to signal cancellation</param>
+      <returns>A Task representing async operation</returns>
+    </member>
+    <member name="M:NetSdrApplication.Services.NetSdrClient.NetSdrClient.DisposeUdpResources">
+      <summary>
+   Disposes UDP channel and client
+   </summary>
+    </member>
+    <member name="M:NetSdrApplication.Services.NetSdrClient.NetSdrClient.EnsureConnected">
+      <summary>
+   Ensures that TCP connection is active
+   Throws an InvalidOperationException if not connected
+   </summary>
+      <exception cref="T:System.InvalidOperationException">Client is not connected</exception>
+    </member>
+    <member name="M:NetSdrApplication.Services.NetSdrClient.NetSdrClient.ProcessResponse(System.Byte[])">
+      <summary>
+   Processes a response received from receiver
+   It extracts header and payload and acts based on MessageType
+   For NAK messages, it throws a NAKException with error code
+   </summary>
+      <param name="response">byte array containing response</param>
+      <returns>A Message object representing response</returns>
+      <exception cref="T:NetSdrApplication.Exceptions.NAKException">Received NAK with error code</exception>
+      <exception cref="T:System.InvalidOperationException">Unexpected response type received</exception>
+    </member>
+    <member name="T:NetSdrApplication.Program">
+      <summary>
+   Main class of application
+   </summary>
+    </member>
+    <member name="M:NetSdrApplication.Program.Main(System.String[])">
+      <summary>
+   Application entry point
+   </summary>
+      <param name="args">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:NetSdrApplication.Program.ConfigureServices">
+      <summary>
+   Setup DI container
+   </summary>
+    </member>
+  </members>
+</doc>

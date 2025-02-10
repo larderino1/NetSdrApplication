@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+
+  <HelpKINode Title="Ack enumeration member" Url="html/T-NetSdrApplication.Models.Enums.MessageType.htm" />
+  <HelpKINode Title="Ack field" Url="html/F-NetSdrApplication.Models.Enums.MessageType.Ack.htm" />
+  <HelpKINode Title="AckMessage class" Url="html/AllMembers.T-NetSdrApplication.Models.ControlItem.AckMessage.htm" />
+  <HelpKINode Title="AckMessage class" Url="html/T-NetSdrApplication.Models.ControlItem.AckMessage.htm" />
+  <HelpKINode Title="AckMessage class">
+    <HelpKINode Title="about AckMessage class" Url="html/T-NetSdrApplication.Models.ControlItem.AckMessage.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-NetSdrApplication.Models.ControlItem.AckMessage.htm" />
+    <HelpKINode Title="constructor" Url="html/M-NetSdrApplication.Models.ControlItem.AckMessage.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-NetSdrApplication.Models.ControlItem.AckMessage.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-NetSdrApplication.Models.ControlItem.AckMessage.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AckMessage.AckMessage constructor" Url="html/M-NetSdrApplication.Models.ControlItem.AckMessage.-ctor.htm" />
+  <HelpKINode Title="AckMessage.GetPayload method" Url="html/M-NetSdrApplication.Models.ControlItem.AckMessage.GetPayload.htm" />
+  <HelpKINode Title="Code enumeration" Url="html/T-NetSdrApplication.Models.Enums.Code.htm" />
+  <HelpKINode Title="Code.Default field" Url="html/F-NetSdrApplication.Models.Enums.Code.Default.htm" />
+  <HelpKINode Title="Code.SetFrequency field" Url="html/F-NetSdrApplication.Models.Enums.Code.SetFrequency.htm" />
+  <HelpKINode Title="Code.StartIQ field" Url="html/F-NetSdrApplication.Models.Enums.Code.StartIQ.htm" />
+  <HelpKINode Title="Code.StopIQ field" Url="html/F-NetSdrApplication.Models.Enums.Code.StopIQ.htm" />
+  <HelpKINode Title="ConfigureServices method" Url="html/M-NetSdrApplication.Program.ConfigureServices.htm" />
+  <HelpKINode Title="ConnectAsync method" Url="html/M-NetSdrApplication.Services.ConnectionClientController.IConnectionController.ConnectAsync.htm" />
+  <HelpKINode Title="ConnectAsync method" Url="html/M-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.ConnectAsync.htm" />
+  <HelpKINode Title="ConnectAsync method" Url="html/M-NetSdrApplication.Services.NetSdrClient.INetSdrClient.ConnectAsync.htm" />
+  <HelpKINode Title="ConnectAsync method" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.ConnectAsync.htm" />
+  <HelpKINode Title="ConnectionException class" Url="html/AllMembers.T-NetSdrApplication.Exceptions.ConnectionException.htm" />
+  <HelpKINode Title="ConnectionException class" Url="html/T-NetSdrApplication.Exceptions.ConnectionException.htm" />
+  <HelpKINode Title="ConnectionException class">
+    <HelpKINode Title="about ConnectionException class" Url="html/T-NetSdrApplication.Exceptions.ConnectionException.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-NetSdrApplication.Exceptions.ConnectionException.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-NetSdrApplication.Exceptions.ConnectionException.-ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events.T-NetSdrApplication.Exceptions.ConnectionException.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-NetSdrApplication.Exceptions.ConnectionException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-NetSdrApplication.Exceptions.ConnectionException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConnectionException.ConnectionException constructor" Url="html/Overload-NetSdrApplication.Exceptions.ConnectionException.-ctor.htm" />
+  <HelpKINode Title="ControlItem enumeration member" Url="html/T-NetSdrApplication.Models.Enums.MessageType.htm" />
+  <HelpKINode Title="ControlItem field" Url="html/F-NetSdrApplication.Models.Enums.MessageType.ControlItem.htm" />
+  <HelpKINode Title="ControlItemCode property" Url="html/P-NetSdrApplication.Models.ControlItem.ControlItemMessage.ControlItemCode.htm" />
+  <HelpKINode Title="ControlItemMessage class" Url="html/AllMembers.T-NetSdrApplication.Models.ControlItem.ControlItemMessage.htm" />
+  <HelpKINode Title="ControlItemMessage class" Url="html/T-NetSdrApplication.Models.ControlItem.ControlItemMessage.htm" />
+  <HelpKINode Title="ControlItemMessage class">
+    <HelpKINode Title="about ControlItemMessage class" Url="html/T-NetSdrApplication.Models.ControlItem.ControlItemMessage.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-NetSdrApplication.Models.ControlItem.ControlItemMessage.htm" />
+    <HelpKINode Title="constructor" Url="html/M-NetSdrApplication.Models.ControlItem.ControlItemMessage.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-NetSdrApplication.Models.ControlItem.ControlItemMessage.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-NetSdrApplication.Models.ControlItem.ControlItemMessage.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ControlItemMessage.ControlItemCode property" Url="html/P-NetSdrApplication.Models.ControlItem.ControlItemMessage.ControlItemCode.htm" />
+  <HelpKINode Title="ControlItemMessage.ControlItemMessage constructor" Url="html/M-NetSdrApplication.Models.ControlItem.ControlItemMessage.-ctor.htm" />
+  <HelpKINode Title="ControlItemMessage.GetPayload method" Url="html/M-NetSdrApplication.Models.ControlItem.ControlItemMessage.GetPayload.htm" />
+  <HelpKINode Title="ControlItemMessage.Parameters property" Url="html/P-NetSdrApplication.Models.ControlItem.ControlItemMessage.Parameters.htm" />
+  <HelpKINode Title="DataItem enumeration member" Url="html/T-NetSdrApplication.Models.Enums.MessageType.htm" />
+  <HelpKINode Title="DataItem field" Url="html/F-NetSdrApplication.Models.Enums.MessageType.DataItem.htm" />
+  <HelpKINode Title="Default enumeration member" Url="html/T-NetSdrApplication.Models.Enums.Code.htm" />
+  <HelpKINode Title="Default field" Url="html/F-NetSdrApplication.Models.Enums.Code.Default.htm" />
+  <HelpKINode Title="DisconnectAsync method" Url="html/M-NetSdrApplication.Services.ConnectionClientController.IConnectionController.DisconnectAsync.htm" />
+  <HelpKINode Title="DisconnectAsync method" Url="html/M-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.DisconnectAsync.htm" />
+  <HelpKINode Title="DisconnectAsync method" Url="html/M-NetSdrApplication.Services.NetSdrClient.INetSdrClient.DisconnectAsync.htm" />
+  <HelpKINode Title="DisconnectAsync method" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.DisconnectAsync.htm" />
+  <HelpKINode Title="Dispose method" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.Dispose.htm" />
+  <HelpKINode Title="DisposeUdpResources method" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.DisposeUdpResources.htm" />
+  <HelpKINode Title="EnsureConnected method" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.EnsureConnected.htm" />
+  <HelpKINode Title="FromBytes method" Url="html/M-NetSdrApplication.Models.ControlItem.Header.FromBytes.htm" />
+  <HelpKINode Title="GetPayload method" Url="html/M-NetSdrApplication.Models.ControlItem.AckMessage.GetPayload.htm" />
+  <HelpKINode Title="GetPayload method" Url="html/M-NetSdrApplication.Models.ControlItem.ControlItemMessage.GetPayload.htm" />
+  <HelpKINode Title="GetPayload method" Url="html/M-NetSdrApplication.Models.ControlItem.Message.GetPayload.htm" />
+  <HelpKINode Title="Header class" Url="html/AllMembers.T-NetSdrApplication.Models.ControlItem.Header.htm" />
+  <HelpKINode Title="Header class" Url="html/T-NetSdrApplication.Models.ControlItem.Header.htm" />
+  <HelpKINode Title="Header class">
+    <HelpKINode Title="about Header class" Url="html/T-NetSdrApplication.Models.ControlItem.Header.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-NetSdrApplication.Models.ControlItem.Header.htm" />
+    <HelpKINode Title="constructor" Url="html/M-NetSdrApplication.Models.ControlItem.Header.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-NetSdrApplication.Models.ControlItem.Header.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-NetSdrApplication.Models.ControlItem.Header.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Header property" Url="html/P-NetSdrApplication.Models.ControlItem.Message.Header.htm" />
+  <HelpKINode Title="Header.FromBytes method" Url="html/M-NetSdrApplication.Models.ControlItem.Header.FromBytes.htm" />
+  <HelpKINode Title="Header.Header constructor" Url="html/M-NetSdrApplication.Models.ControlItem.Header.-ctor.htm" />
+  <HelpKINode Title="Header.Length property" Url="html/P-NetSdrApplication.Models.ControlItem.Header.Length.htm" />
+  <HelpKINode Title="Header.MessageType property" Url="html/P-NetSdrApplication.Models.ControlItem.Header.MessageType.htm" />
+  <HelpKINode Title="Header.ToBytes method" Url="html/M-NetSdrApplication.Models.ControlItem.Header.ToBytes.htm" />
+  <HelpKINode Title="IConnectionController interface" Url="html/AllMembers.T-NetSdrApplication.Services.ConnectionClientController.IConnectionController.htm" />
+  <HelpKINode Title="IConnectionController interface" Url="html/T-NetSdrApplication.Services.ConnectionClientController.IConnectionController.htm" />
+  <HelpKINode Title="IConnectionController interface">
+    <HelpKINode Title="about IConnectionController interface" Url="html/T-NetSdrApplication.Services.ConnectionClientController.IConnectionController.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-NetSdrApplication.Services.ConnectionClientController.IConnectionController.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-NetSdrApplication.Services.ConnectionClientController.IConnectionController.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-NetSdrApplication.Services.ConnectionClientController.IConnectionController.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IConnectionController.ConnectAsync method" Url="html/M-NetSdrApplication.Services.ConnectionClientController.IConnectionController.ConnectAsync.htm" />
+  <HelpKINode Title="IConnectionController.DisconnectAsync method" Url="html/M-NetSdrApplication.Services.ConnectionClientController.IConnectionController.DisconnectAsync.htm" />
+  <HelpKINode Title="IConnectionController.IsConnected property" Url="html/P-NetSdrApplication.Services.ConnectionClientController.IConnectionController.IsConnected.htm" />
+  <HelpKINode Title="IConnectionController.ReceiveAsync method" Url="html/M-NetSdrApplication.Services.ConnectionClientController.IConnectionController.ReceiveAsync.htm" />
+  <HelpKINode Title="IConnectionController.SendAsync method" Url="html/M-NetSdrApplication.Services.ConnectionClientController.IConnectionController.SendAsync.htm" />
+  <HelpKINode Title="INetSdrClient interface" Url="html/AllMembers.T-NetSdrApplication.Services.NetSdrClient.INetSdrClient.htm" />
+  <HelpKINode Title="INetSdrClient interface" Url="html/T-NetSdrApplication.Services.NetSdrClient.INetSdrClient.htm" />
+  <HelpKINode Title="INetSdrClient interface">
+    <HelpKINode Title="about INetSdrClient interface" Url="html/T-NetSdrApplication.Services.NetSdrClient.INetSdrClient.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-NetSdrApplication.Services.NetSdrClient.INetSdrClient.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-NetSdrApplication.Services.NetSdrClient.INetSdrClient.htm" />
+  </HelpKINode>
+  <HelpKINode Title="INetSdrClient.ConnectAsync method" Url="html/M-NetSdrApplication.Services.NetSdrClient.INetSdrClient.ConnectAsync.htm" />
+  <HelpKINode Title="INetSdrClient.DisconnectAsync method" Url="html/M-NetSdrApplication.Services.NetSdrClient.INetSdrClient.DisconnectAsync.htm" />
+  <HelpKINode Title="INetSdrClient.SetReceiverState method" Url="html/M-NetSdrApplication.Services.NetSdrClient.INetSdrClient.SetReceiverState.htm" />
+  <HelpKINode Title="INetSdrClient.SetTargetFrequency method" Url="html/M-NetSdrApplication.Services.NetSdrClient.INetSdrClient.SetTargetFrequency.htm" />
+  <HelpKINode Title="IsConnected property" Url="html/P-NetSdrApplication.Services.ConnectionClientController.IConnectionController.IsConnected.htm" />
+  <HelpKINode Title="IsConnected property" Url="html/P-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.IsConnected.htm" />
+  <HelpKINode Title="Length property" Url="html/P-NetSdrApplication.Models.ControlItem.Header.Length.htm" />
+  <HelpKINode Title="Main method" Url="html/M-NetSdrApplication.Program.Main.htm" />
+  <HelpKINode Title="Message class" Url="html/AllMembers.T-NetSdrApplication.Models.ControlItem.Message.htm" />
+  <HelpKINode Title="Message class" Url="html/T-NetSdrApplication.Models.ControlItem.Message.htm" />
+  <HelpKINode Title="Message class">
+    <HelpKINode Title="about Message class" Url="html/T-NetSdrApplication.Models.ControlItem.Message.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-NetSdrApplication.Models.ControlItem.Message.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-NetSdrApplication.Models.ControlItem.Message.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-NetSdrApplication.Models.ControlItem.Message.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Message.GetPayload method" Url="html/M-NetSdrApplication.Models.ControlItem.Message.GetPayload.htm" />
+  <HelpKINode Title="Message.Header property" Url="html/P-NetSdrApplication.Models.ControlItem.Message.Header.htm" />
+  <HelpKINode Title="Message.ToBytes method" Url="html/M-NetSdrApplication.Models.ControlItem.Message.ToBytes.htm" />
+  <HelpKINode Title="MessageType enumeration" Url="html/T-NetSdrApplication.Models.Enums.MessageType.htm" />
+  <HelpKINode Title="MessageType property" Url="html/P-NetSdrApplication.Models.ControlItem.Header.MessageType.htm" />
+  <HelpKINode Title="MessageType.Ack field" Url="html/F-NetSdrApplication.Models.Enums.MessageType.Ack.htm" />
+  <HelpKINode Title="MessageType.ControlItem field" Url="html/F-NetSdrApplication.Models.Enums.MessageType.ControlItem.htm" />
+  <HelpKINode Title="MessageType.DataItem field" Url="html/F-NetSdrApplication.Models.Enums.MessageType.DataItem.htm" />
+  <HelpKINode Title="MessageType.Nak field" Url="html/F-NetSdrApplication.Models.Enums.MessageType.Nak.htm" />
+  <HelpKINode Title="Nak enumeration member" Url="html/T-NetSdrApplication.Models.Enums.MessageType.htm" />
+  <HelpKINode Title="Nak field" Url="html/F-NetSdrApplication.Models.Enums.MessageType.Nak.htm" />
+  <HelpKINode Title="NAKException class" Url="html/AllMembers.T-NetSdrApplication.Exceptions.NAKException.htm" />
+  <HelpKINode Title="NAKException class" Url="html/T-NetSdrApplication.Exceptions.NAKException.htm" />
+  <HelpKINode Title="NAKException class">
+    <HelpKINode Title="about NAKException class" Url="html/T-NetSdrApplication.Exceptions.NAKException.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-NetSdrApplication.Exceptions.NAKException.htm" />
+    <HelpKINode Title="constructor" Url="html/M-NetSdrApplication.Exceptions.NAKException.-ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events.T-NetSdrApplication.Exceptions.NAKException.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-NetSdrApplication.Exceptions.NAKException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-NetSdrApplication.Exceptions.NAKException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NAKException.NAKException constructor" Url="html/M-NetSdrApplication.Exceptions.NAKException.-ctor.htm" />
+  <HelpKINode Title="NetSdrApplication namespace" Url="html/N-NetSdrApplication.htm" />
+  <HelpKINode Title="NetSdrApplication.Exceptions namespace" Url="html/N-NetSdrApplication.Exceptions.htm" />
+  <HelpKINode Title="NetSdrApplication.Exceptions.ConnectionException class" Url="html/AllMembers.T-NetSdrApplication.Exceptions.ConnectionException.htm" />
+  <HelpKINode Title="NetSdrApplication.Exceptions.ConnectionException class" Url="html/T-NetSdrApplication.Exceptions.ConnectionException.htm" />
+  <HelpKINode Title="NetSdrApplication.Exceptions.NAKException class" Url="html/AllMembers.T-NetSdrApplication.Exceptions.NAKException.htm" />
+  <HelpKINode Title="NetSdrApplication.Exceptions.NAKException class" Url="html/T-NetSdrApplication.Exceptions.NAKException.htm" />
+  <HelpKINode Title="NetSdrApplication.Models.ControlItem namespace" Url="html/N-NetSdrApplication.Models.ControlItem.htm" />
+  <HelpKINode Title="NetSdrApplication.Models.ControlItem.AckMessage class" Url="html/AllMembers.T-NetSdrApplication.Models.ControlItem.AckMessage.htm" />
+  <HelpKINode Title="NetSdrApplication.Models.ControlItem.AckMessage class" Url="html/T-NetSdrApplication.Models.ControlItem.AckMessage.htm" />
+  <HelpKINode Title="NetSdrApplication.Models.ControlItem.ControlItemMessage class" Url="html/AllMembers.T-NetSdrApplication.Models.ControlItem.ControlItemMessage.htm" />
+  <HelpKINode Title="NetSdrApplication.Models.ControlItem.ControlItemMessage class" Url="html/T-NetSdrApplication.Models.ControlItem.ControlItemMessage.htm" />
+  <HelpKINode Title="NetSdrApplication.Models.ControlItem.Header class" Url="html/AllMembers.T-NetSdrApplication.Models.ControlItem.Header.htm" />
+  <HelpKINode Title="NetSdrApplication.Models.ControlItem.Header class" Url="html/T-NetSdrApplication.Models.ControlItem.Header.htm" />
+  <HelpKINode Title="NetSdrApplication.Models.ControlItem.Message class" Url="html/AllMembers.T-NetSdrApplication.Models.ControlItem.Message.htm" />
+  <HelpKINode Title="NetSdrApplication.Models.ControlItem.Message class" Url="html/T-NetSdrApplication.Models.ControlItem.Message.htm" />
+  <HelpKINode Title="NetSdrApplication.Models.Enums namespace" Url="html/N-NetSdrApplication.Models.Enums.htm" />
+  <HelpKINode Title="NetSdrApplication.Models.Enums.Code enumeration" Url="html/T-NetSdrApplication.Models.Enums.Code.htm" />
+  <HelpKINode Title="NetSdrApplication.Models.Enums.MessageType enumeration" Url="html/T-NetSdrApplication.Models.Enums.MessageType.htm" />
+  <HelpKINode Title="NetSdrApplication.Program class" Url="html/AllMembers.T-NetSdrApplication.Program.htm" />
+  <HelpKINode Title="NetSdrApplication.Program class" Url="html/T-NetSdrApplication.Program.htm" />
+  <HelpKINode Title="NetSdrApplication.Services.ConnectionClientController namespace" Url="html/N-NetSdrApplication.Services.ConnectionClientController.htm" />
+  <HelpKINode Title="NetSdrApplication.Services.ConnectionClientController.IConnectionController interface" Url="html/AllMembers.T-NetSdrApplication.Services.ConnectionClientController.IConnectionController.htm" />
+  <HelpKINode Title="NetSdrApplication.Services.ConnectionClientController.IConnectionController interface" Url="html/T-NetSdrApplication.Services.ConnectionClientController.IConnectionController.htm" />
+  <HelpKINode Title="NetSdrApplication.Services.ConnectionClientController.TcpConnectionController class" Url="html/AllMembers.T-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.htm" />
+  <HelpKINode Title="NetSdrApplication.Services.ConnectionClientController.TcpConnectionController class" Url="html/T-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.htm" />
+  <HelpKINode Title="NetSdrApplication.Services.NetSdrClient namespace" Url="html/N-NetSdrApplication.Services.NetSdrClient.htm" />
+  <HelpKINode Title="NetSdrApplication.Services.NetSdrClient.INetSdrClient interface" Url="html/AllMembers.T-NetSdrApplication.Services.NetSdrClient.INetSdrClient.htm" />
+  <HelpKINode Title="NetSdrApplication.Services.NetSdrClient.INetSdrClient interface" Url="html/T-NetSdrApplication.Services.NetSdrClient.INetSdrClient.htm" />
+  <HelpKINode Title="NetSdrApplication.Services.NetSdrClient.NetSdrClient class" Url="html/AllMembers.T-NetSdrApplication.Services.NetSdrClient.NetSdrClient.htm" />
+  <HelpKINode Title="NetSdrApplication.Services.NetSdrClient.NetSdrClient class" Url="html/T-NetSdrApplication.Services.NetSdrClient.NetSdrClient.htm" />
+  <HelpKINode Title="NetSdrClient class" Url="html/AllMembers.T-NetSdrApplication.Services.NetSdrClient.NetSdrClient.htm" />
+  <HelpKINode Title="NetSdrClient class" Url="html/T-NetSdrApplication.Services.NetSdrClient.NetSdrClient.htm" />
+  <HelpKINode Title="NetSdrClient class">
+    <HelpKINode Title="about NetSdrClient class" Url="html/T-NetSdrApplication.Services.NetSdrClient.NetSdrClient.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-NetSdrApplication.Services.NetSdrClient.NetSdrClient.htm" />
+    <HelpKINode Title="constructor" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-NetSdrApplication.Services.NetSdrClient.NetSdrClient.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-NetSdrApplication.Services.NetSdrClient.NetSdrClient.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NetSdrClient.ConnectAsync method" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.ConnectAsync.htm" />
+  <HelpKINode Title="NetSdrClient.DisconnectAsync method" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.DisconnectAsync.htm" />
+  <HelpKINode Title="NetSdrClient.Dispose method" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.Dispose.htm" />
+  <HelpKINode Title="NetSdrClient.DisposeUdpResources method" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.DisposeUdpResources.htm" />
+  <HelpKINode Title="NetSdrClient.EnsureConnected method" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.EnsureConnected.htm" />
+  <HelpKINode Title="NetSdrClient.NetSdrClient constructor" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.-ctor.htm" />
+  <HelpKINode Title="NetSdrClient.ProcessResponse method" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.ProcessResponse.htm" />
+  <HelpKINode Title="NetSdrClient.ProcessUdpDataAsync method" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.ProcessUdpDataAsync.htm" />
+  <HelpKINode Title="NetSdrClient.ReceiveUdpDataAsync method" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.ReceiveUdpDataAsync.htm" />
+  <HelpKINode Title="NetSdrClient.SetReceiverState method" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.SetReceiverState.htm" />
+  <HelpKINode Title="NetSdrClient.SetTargetFrequency method" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.SetTargetFrequency.htm" />
+  <HelpKINode Title="NetSdrClient.StartUdpReceiver method" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.StartUdpReceiver.htm" />
+  <HelpKINode Title="NetSdrClient.StopUdpReceiverAsync method" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.StopUdpReceiverAsync.htm" />
+  <HelpKINode Title="NetSdrClient._backgroundTask field" Url="html/F-NetSdrApplication.Services.NetSdrClient.NetSdrClient._backgroundTask.htm" />
+  <HelpKINode Title="NetSdrClient._cts field" Url="html/F-NetSdrApplication.Services.NetSdrClient.NetSdrClient._cts.htm" />
+  <HelpKINode Title="NetSdrClient._disposed field" Url="html/F-NetSdrApplication.Services.NetSdrClient.NetSdrClient._disposed.htm" />
+  <HelpKINode Title="NetSdrClient._tcpConnectionController field" Url="html/F-NetSdrApplication.Services.NetSdrClient.NetSdrClient._tcpConnectionController.htm" />
+  <HelpKINode Title="NetSdrClient._udpChannel field" Url="html/F-NetSdrApplication.Services.NetSdrClient.NetSdrClient._udpChannel.htm" />
+  <HelpKINode Title="NetSdrClient._udpClient field" Url="html/F-NetSdrApplication.Services.NetSdrClient.NetSdrClient._udpClient.htm" />
+  <HelpKINode Title="NetSdrClient._udpOutputFilePath field" Url="html/F-NetSdrApplication.Services.NetSdrClient.NetSdrClient._udpOutputFilePath.htm" />
+  <HelpKINode Title="Parameters property" Url="html/P-NetSdrApplication.Models.ControlItem.ControlItemMessage.Parameters.htm" />
+  <HelpKINode Title="ProcessResponse method" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.ProcessResponse.htm" />
+  <HelpKINode Title="ProcessUdpDataAsync method" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.ProcessUdpDataAsync.htm" />
+  <HelpKINode Title="Program class" Url="html/AllMembers.T-NetSdrApplication.Program.htm" />
+  <HelpKINode Title="Program class" Url="html/T-NetSdrApplication.Program.htm" />
+  <HelpKINode Title="Program class">
+    <HelpKINode Title="about Program class" Url="html/T-NetSdrApplication.Program.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-NetSdrApplication.Program.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-NetSdrApplication.Program.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Program.ConfigureServices method" Url="html/M-NetSdrApplication.Program.ConfigureServices.htm" />
+  <HelpKINode Title="Program.Main method" Url="html/M-NetSdrApplication.Program.Main.htm" />
+  <HelpKINode Title="ReadExactAsync method" Url="html/M-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.ReadExactAsync.htm" />
+  <HelpKINode Title="ReceiveAsync method" Url="html/M-NetSdrApplication.Services.ConnectionClientController.IConnectionController.ReceiveAsync.htm" />
+  <HelpKINode Title="ReceiveAsync method" Url="html/M-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.ReceiveAsync.htm" />
+  <HelpKINode Title="ReceiveUdpDataAsync method" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.ReceiveUdpDataAsync.htm" />
+  <HelpKINode Title="SendAsync method" Url="html/M-NetSdrApplication.Services.ConnectionClientController.IConnectionController.SendAsync.htm" />
+  <HelpKINode Title="SendAsync method" Url="html/M-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.SendAsync.htm" />
+  <HelpKINode Title="SetFrequency enumeration member" Url="html/T-NetSdrApplication.Models.Enums.Code.htm" />
+  <HelpKINode Title="SetFrequency field" Url="html/F-NetSdrApplication.Models.Enums.Code.SetFrequency.htm" />
+  <HelpKINode Title="SetReceiverState method" Url="html/M-NetSdrApplication.Services.NetSdrClient.INetSdrClient.SetReceiverState.htm" />
+  <HelpKINode Title="SetReceiverState method" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.SetReceiverState.htm" />
+  <HelpKINode Title="SetTargetFrequency method" Url="html/M-NetSdrApplication.Services.NetSdrClient.INetSdrClient.SetTargetFrequency.htm" />
+  <HelpKINode Title="SetTargetFrequency method" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.SetTargetFrequency.htm" />
+  <HelpKINode Title="StartIQ enumeration member" Url="html/T-NetSdrApplication.Models.Enums.Code.htm" />
+  <HelpKINode Title="StartIQ field" Url="html/F-NetSdrApplication.Models.Enums.Code.StartIQ.htm" />
+  <HelpKINode Title="StartUdpReceiver method" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.StartUdpReceiver.htm" />
+  <HelpKINode Title="StopIQ enumeration member" Url="html/T-NetSdrApplication.Models.Enums.Code.htm" />
+  <HelpKINode Title="StopIQ field" Url="html/F-NetSdrApplication.Models.Enums.Code.StopIQ.htm" />
+  <HelpKINode Title="StopUdpReceiverAsync method" Url="html/M-NetSdrApplication.Services.NetSdrClient.NetSdrClient.StopUdpReceiverAsync.htm" />
+  <HelpKINode Title="TcpConnectionController class" Url="html/AllMembers.T-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.htm" />
+  <HelpKINode Title="TcpConnectionController class" Url="html/T-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.htm" />
+  <HelpKINode Title="TcpConnectionController class">
+    <HelpKINode Title="about TcpConnectionController class" Url="html/T-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.htm" />
+    <HelpKINode Title="constructor" Url="html/M-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TcpConnectionController.ConnectAsync method" Url="html/M-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.ConnectAsync.htm" />
+  <HelpKINode Title="TcpConnectionController.DisconnectAsync method" Url="html/M-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.DisconnectAsync.htm" />
+  <HelpKINode Title="TcpConnectionController.IsConnected property" Url="html/P-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.IsConnected.htm" />
+  <HelpKINode Title="TcpConnectionController.ReadExactAsync method" Url="html/M-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.ReadExactAsync.htm" />
+  <HelpKINode Title="TcpConnectionController.ReceiveAsync method" Url="html/M-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.ReceiveAsync.htm" />
+  <HelpKINode Title="TcpConnectionController.SendAsync method" Url="html/M-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.SendAsync.htm" />
+  <HelpKINode Title="TcpConnectionController.TcpConnectionController constructor" Url="html/M-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController.-ctor.htm" />
+  <HelpKINode Title="TcpConnectionController._stream field" Url="html/F-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController._stream.htm" />
+  <HelpKINode Title="TcpConnectionController._tcpClient field" Url="html/F-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController._tcpClient.htm" />
+  <HelpKINode Title="ToBytes method" Url="html/M-NetSdrApplication.Models.ControlItem.Header.ToBytes.htm" />
+  <HelpKINode Title="ToBytes method" Url="html/M-NetSdrApplication.Models.ControlItem.Message.ToBytes.htm" />
+  <HelpKINode Title="_backgroundTask field" Url="html/F-NetSdrApplication.Services.NetSdrClient.NetSdrClient._backgroundTask.htm" />
+  <HelpKINode Title="_cts field" Url="html/F-NetSdrApplication.Services.NetSdrClient.NetSdrClient._cts.htm" />
+  <HelpKINode Title="_disposed field" Url="html/F-NetSdrApplication.Services.NetSdrClient.NetSdrClient._disposed.htm" />
+  <HelpKINode Title="_stream field" Url="html/F-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController._stream.htm" />
+  <HelpKINode Title="_tcpClient field" Url="html/F-NetSdrApplication.Services.ConnectionClientController.TcpConnectionController._tcpClient.htm" />
+  <HelpKINode Title="_tcpConnectionController field" Url="html/F-NetSdrApplication.Services.NetSdrClient.NetSdrClient._tcpConnectionController.htm" />
+  <HelpKINode Title="_udpChannel field" Url="html/F-NetSdrApplication.Services.NetSdrClient.NetSdrClient._udpChannel.htm" />
+  <HelpKINode Title="_udpClient field" Url="html/F-NetSdrApplication.Services.NetSdrClient.NetSdrClient._udpClient.htm" />
+  <HelpKINode Title="_udpOutputFilePath field" Url="html/F-NetSdrApplication.Services.NetSdrClient.NetSdrClient._udpOutputFilePath.htm" />
+</HelpKI>
